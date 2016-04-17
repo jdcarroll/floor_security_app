@@ -1,0 +1,251 @@
+@font-face {
+    font-family: spaceage;
+    src: url(../fonts/space-age.ttf);
+}
+
+.huh {
+    width: 300px;
+    margin: 0 auto;
+}
+
+body {
+    color: #555;
+    font-size: 13px;
+    text-align: center;
+    background: #fff;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 40px;
+}
+
+canvas {
+/*    border: solid 1px black;*/
+    text-align: center;
+    position: relative;
+    top: -65px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+form {
+    width: 200px;
+    font-size: 14px;
+    line-height: 21px;
+/*    margin: -150px auto 0 auto;*/
+    margin: -215px 50px 0;
+    color: #808080;
+    z-index: 1;
+/*    background-color: aqua;*/
+}
+
+legend {
+    font-family: spaceage;
+    font-size: 14px;
+}
+
+input {
+    text-align: center;
+}
+
+.captcha-image {
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#pippy-app {
+    margin: 150px auto;
+/*    height: 300px;*/
+    width: 300px;
+    border: solid 2px grey;
+    padding-bottom: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#pippy-app-createuser {
+    padding-left: 100px;
+    margin-top: -60px;
+    
+}
+
+#pippy-app-permissions {
+    padding-left: 100px;
+    margin-top: -60px;
+}
+
+#pippy-model {
+    height: 300px;
+    width: 300px;
+/*    margin: 0 auto;*/
+    z-index: 0;
+}
+
+#reveal-button {
+    height: 50px;
+    width: 250px;
+    border: solid 2px grey;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: fixed;
+    top: 45%;
+    right: 43%;
+    background-color: white;
+    z-index: 6;
+    padding-top: 32px;
+}
+
+.reveal {
+    
+}
+
+#admin-button {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+#back-button {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+#reveal-top {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    z-index: 5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 2px grey;
+}
+
+#reveal-bottom {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    z-index: 5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 2px grey;
+}
+
+.hidden {
+    display: none;
+}
+
+.login-button {
+    width: 100px;
+    height: 23px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 2px grey;
+    margin: 10px auto;
+    
+}
+
+.pippywindow {
+    margin: 30px auto;
+/*    height: 300px;*/
+    width: 500px;
+    border: solid 2px grey;
+    padding-bottom: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.user-name {
+    
+}
+
+.user-perm {
+    
+}
+
+.user-photo-title {
+    
+}
+
+.userbackbutton {
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    top: 30px;
+    left: 30px;
+}
+
+.floatright {
+    
+}
+
+.floatleft {
+    
+}
+
+/*FROM http://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/*/
+
+nav {
+  margin: 5px;
+}
+ 
+ul {
+  overflow: auto;
+  list-style-type: none;
+    padding: 10px 0 0 0;
+}
+ 
+li {
+/*
+  height: 25px;
+  float: left;
+*/
+  margin-right: 0px;
+/*  border-right: 1px solid #aaa;*/
+  padding: 0 20px;
+}
+ 
+li:last-child {
+  border-right: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 30px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+li a:hover {
+  color: #666;
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+/*END FROM*/
+
